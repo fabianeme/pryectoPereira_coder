@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu{
+    background-color: rgb(250, 208, 69);
+ height: 10vh;
+ display: grid;
+ grid-template-rows: 1fr;
+ grid-template-columns:repeat(3, 1fr);
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ justify-items: center;
+ 
+}
